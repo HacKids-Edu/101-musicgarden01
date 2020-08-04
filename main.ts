@@ -1,0 +1,11 @@
+basic.showIcon(IconNames.EigthNote)
+basic.forever(function () {
+    music.playTone(622, music.beat(BeatFraction.Whole))
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(622, music.beat(BeatFraction.Half))
+    music.playTone(659, music.beat(BeatFraction.Half))
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(415, music.beat(BeatFraction.Quarter))
+    music.playTone(622, music.beat(BeatFraction.Quarter))
+})
